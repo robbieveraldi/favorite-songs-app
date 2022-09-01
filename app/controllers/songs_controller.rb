@@ -21,11 +21,12 @@ class SongsController < ApplicationController
   end
 
   def update
-    song = Songs.find_by(id: params["id"])
+    song = Song.find_by(id: params["id"])
     song.title = params["title"] || song.title
     song.artist = params["artist"] || song.artist
     song.album = params["album"] || song.album
     song.year = params["year"] || song.year
+    song.save
     render json: song.as_json
   end
 

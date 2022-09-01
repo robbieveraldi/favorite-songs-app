@@ -8,42 +8,42 @@
 
 Song.create!(
   title: "LVL",
-  album: "LONG.LIVE.A$AP"
+  album: "LONG.LIVE.A$AP",
   artist: "A$AP Rocky",
-  year: "2013"
+  year: "2013",
 )
 
 Song.create!(
   title: "Rap Saved Me",
-  album: "Without Warning"
+  album: "Without Warning",
   artist: "21 Savage, Offset, Metro Boomin",
-  year: "2017"
+  year: "2017",
 )
 
 Song.create!(
   title: "Pris Morton Music",
-  album: "Care Package"
+  album: "Care Package",
   artist: "Drake",
-  year: "2019"
+  year: "2019",
 )
 
 Song.create!(
   title: "This Could Be Us",
-  album: "SremmLife"
+  album: "SremmLife",
   artist: "Rae Sremmurd",
-  year: "2015"
+  year: "2015",
 )
 
 Song.create!(
   title: "Maria I'm Drunk",
-  album: "Rodeo"
+  album: "Rodeo",
   artist: "Travis Scott, Justin Bieber, Young Thug",
-  year: "2015"
+  year: "2015",
 )
 
 Song.create!(
   title: "Dior (Remix)",
-  album: "Meet The Woo 2"
+  album: "Meet The Woo 2",
   artist: "Pop Smoke, Gunna",
-  year: "2020"
+  year: "2020",
 )
