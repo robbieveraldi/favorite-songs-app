@@ -1,0 +1,10 @@
+### Songs Index Action
+GET localhost:3000/songs
+### Songs Show Action
+GET localhost:3000/songs/:id
+### Songs Create Action
+POST localhost:3000/songs
+### Songs Update Action
+PATCH localhost:3000/songs/:id
+### Songs Destroy Action
+DELETE localhost:3000/songs/:id
